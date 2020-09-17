@@ -22,6 +22,6 @@ end
 
 buble_sort
 
-bubble_sort_by(%w[hi, hello, hey]) do |left, right|
+bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
