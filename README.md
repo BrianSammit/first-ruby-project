@@ -1,10 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![]()
 
 # BUBBLE SORT 
 
 > This is an algorithm made with ruby, creating iterations and blocks.
 
-![screenshot](./images/Screenshot.png)
+![screenshot](screenshot.png)
 
 This is a responsive site for all the screen sizes, that has a search bar in the header of the page, where you can look for your instruments by name and filter the results by different criteria. 
 
