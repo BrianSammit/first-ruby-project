@@ -1,18 +1,23 @@
 def buble_sort(arr = [1, 0, 4, 3, 5, 1, 0, 1])
   i = 0
+  a = 1
   arrl = arr.length - 1
-  while i < arrl do
-    x = arr[i]
-    y = arr[i + 1]
-    if x > y
-      arr[i] = y
-      arr[i + 1] = x
+  while a != 0 do
+    a = 0
+    i = 0
+    while i < arrl do
+      x = arr[i]
+      y = arr[i + 1]
+      if x > y
+        arr[i] = y
+        arr[i + 1] = x
+        a = a + 1
+      end
+      i = i + 1
     end
-    i = i + 1
   end
   print arr
 end
-
 def bubble_sort_by(arr2)
   i = 0
   arr2l = arr2.length - 1
