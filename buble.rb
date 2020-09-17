@@ -1,5 +1,5 @@
-def buble_sort = arr[5, 7, 3, 9]
+def buble_sort (arr)
   i = 0
-  while i < arr.length 
+  while i < arr.length -i
 
 end  
