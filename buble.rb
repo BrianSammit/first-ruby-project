@@ -1,4 +1,4 @@
-def buble_sort(arr = [1, 0, 4, 3, 5, 1, 0, 1])
+def bubble_sort(arr = [1, 0, 4, 3, 5, 1, 0, 1])
   i = 0
   a = 1
   arrl = arr.length - 1
@@ -16,6 +16,7 @@ def buble_sort(arr = [1, 0, 4, 3, 5, 1, 0, 1])
       i += 1
     end
   end
+  arr
 end
 
 def bubble_sort_by(arr2)
@@ -31,9 +32,10 @@ def bubble_sort_by(arr2)
     end
     i += 1
   end
+  arr2
 end
 
-buble_sort
+bubble_sort
 bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
